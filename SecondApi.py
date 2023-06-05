@@ -1,6 +1,6 @@
 import requests
 
-api_key = "037a018cacc80be5140667fd5804eb226b6c29999483edaae3b307d009252dcf"
+api_key = "add api key"
 url = f"https://min-api.cryptocompare.com/data/top/mktcapfull?limit=2&tsym=USD&api_key={api_key}&lang=tr"
 
 response = requests.get(url)
