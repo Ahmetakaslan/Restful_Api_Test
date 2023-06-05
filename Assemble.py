@@ -11,7 +11,7 @@ def get_weather_data():
     iladi = request.args.get('q')
     params = {
         "q": f"{iladi}",
-        "appid": "2cca848d9a97f8dd3b06b8f4960f5b7a",
+        "appid": "add api key",
         "lang":"tr"
     }
 
@@ -42,7 +42,7 @@ def get_weather_data():
 
 @app.route('/crypto', methods=['GET'])
 def get_crypto():
-    api_key = "037a018cacc80be5140667fd5804eb226b6c29999483edaae3b307d009252dcf"
+    api_key = "add api key"
     url = f"https://min-api.cryptocompare.com/data/top/mktcapfull?limit=30&tsym=USD&api_key={api_key}&lang=tr"
     response = requests.get(url)
     if response.status_code == 200:
