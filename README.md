@@ -1,2 +1,2 @@
 # Restful_Api_Test
-I crweather api and crypto  api
+I created a unifying api consisting of crypto api and weather api
