@@ -3,7 +3,7 @@ iladi=str(input("il ismi giriniz"))
 url = "https://api.openweathermap.org/data/2.5/weather"
 params = {
     "q": f"{iladi}",
-    "appid": "2cca848d9a97f8dd3b06b8f4960f5b7a",
+    "appid": "add api key",
     "lang":"tr"
 }
 
